@@ -10,33 +10,35 @@
   </head>
   <body>
     <header>
-      <a href="/">WebStudio</a>
+      <a href="./index.html" class="logo"><span class="logo part">Web</span>Studio</a>
       <nav>
-        <ul>
-          <li><a href="./index.html">Студія</a></li>
-          <li><a href="">Портфоліо</a></li>
-          <li><a href="">Контакти</a></li>
+        <ul class="nav-list">
+          <li><a class="nav-list-item" href="/index.html">Студія</a></li>
+          <li><a class="nav-list-item-current" href="./portfolio.html">Портфоліо</a></li>
+          <li><a class="nav-list-item" href="/">Контакти</a></li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="maito:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+      <ul class="contact-lict">
+        <li><a href="maito:info@devstudio.com" class="header-contact">info@devstudio.com</a></li>
+        <li><a href="tel:+380961111111" class="header-contact">+38 096 111 11 11</a></li>
       </ul>
     </header>
+    <!--  -->
     <main>
       <section>
         <h1>Фільтри</h1>
         <ul>
-          <li><button type="button">Усі</button></li>
-          <li><button type="button">Веб-сайти</button></li>
-          <li><button type="button">Додатки</button></li>
-          <li><button type="button">Дизайн</button></li>
-          <li><button type="button">Маркетинг</button></li>
+          <li><button type="button" class="button-desc-current">Усі</button></li>
+          <li><button type="button" class="button-desc">Веб-сайти</button></li>
+          <li><button type="button" class="button-desc">Додатки</button></li>
+          <li><button type="button" class="button-desc">Дизайн</button></li>
+          <li><button type="button" class="button-desc">Маркетинг</button></li>
         </ul>
       </section>
+      <!--  -->
       <section>
         <h2>Наші проекти</h2>
-        <ul>
+        <ul class="section-project">
           <li>
             <a href="/">
               <img
@@ -130,20 +132,21 @@
         </ul>
       </section>
     </main>
+    <!--  -->
     <footer>
-      <a href="/">WebStudio</a>
-      <address>
-        <ul>
+      <a href="./index.html" class="logo-footer"><span class="logo part">Web</span>Studio</a>
+      <address class="footer-contact">
+        <ul class="footer-contact-list">
           <li>
             <a
               href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
               target="_blank"
-              rel="noopener noreferrer nofollo"
+              rel="noopener noreferrer nofollo" class="footer-address"
               >м. Київ, пр-т Лесі Українки, 26</a
             >
           </li>
-          <li><a href="maito:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+          <li><a href="maito:info@devstudio.com" class="footer-link">info@devstudio.com</a></li>
+          <li><a href="tel:+380961111111" class="footer-number">+38 096 111 11 11</a></li>
         </ul>
       </address>
     </footer>

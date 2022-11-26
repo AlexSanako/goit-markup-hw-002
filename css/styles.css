@@ -4,12 +4,84 @@
     --accent-color:  #2196F3;
     --primary-color: #F5F4FA;
     --primary-background-color:#F5F5F5; 
+    --secondary-background-color: #2F303A;
     --color-text-action: #FFFFFF;
-
+    --black-color: #000000;
 }
 
-/* Font шрифт робото
- <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
- */
+body{
+    font-family: 'Roboto','Raleway', sans-serif;
+}
+
+/* Header */
+.logo {
+    color: var(--black-color);
+    font-family: 'Releway', sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+.part{
+    color: var(--accent-color);
+}
+.nav-list-item-current{
+    color: var(--accent-color);
+    text-decoration: none;
+}
+.nav-list-item{
+    color: var(--tittle-text-color);
+    font-style: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+.header-contact{
+    color: var(--primary-text-color);
+    font-style: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+.nav-list-item:hover, 
+:focus{
+    color: var(--accent-color);
+}
+.header-contact:hover, 
+:focus{
+    color: var(--accent-color);
+}
+.hero{
+    background-color: var(--secondary-background-color);
+    color: var(--color-text-action);
+    font-style: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-align: center;
+}
+.btn-primary{
+    background-color: var(--accent-color);
+    color: var(--color-text-action);
+    border-color: var(--accent-color);
+}
+.button-desc{
+    background-color: var(--primary-color);
+    color: var(--tittle-text-color);
+    border-color: var(--primary-color);
+}
+.button-desc-current{
+    background-color: var(--accent-color);
+    color: var(--color-text-action);
+    border-color: var(--accent-color);
+}
+
+
+
+/* Footer */
+.logo-footer{
+    color: var(--color-text-action);
+}
