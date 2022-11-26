@@ -3,14 +3,18 @@
     --tittle-text-color:  #212121;
     --accent-color:  #2196F3;
     --primary-color: #F5F4FA;
-    --primary-background-color:#F5F5F5; 
+    --primary-background-color:#FFFFFF; 
     --secondary-background-color: #2F303A;
     --color-text-action: #FFFFFF;
     --black-color: #000000;
+    --font-family: inherit;
 }
 
 body{
     font-family: 'Roboto','Raleway', sans-serif;
+    font-style: 400;
+    color: var(--primary-text-color);
+    background-color: var(--primary-background-color);
 }
 
 /* Header */
@@ -62,21 +66,46 @@ body{
     line-height: 1.36;
     letter-spacing: 0.06em;
     text-align: center;
+    text-transform: uppercase;
 }
 .btn-primary{
     background-color: var(--accent-color);
     color: var(--color-text-action);
     border-color: var(--accent-color);
+    border-radius: 4px;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    text-align: center;
 }
 .button-desc{
     background-color: var(--primary-color);
     color: var(--tittle-text-color);
     border-color: var(--primary-color);
+    border-radius: 4px;
+    font-family: inherit;
 }
 .button-desc-current{
     background-color: var(--accent-color);
     color: var(--color-text-action);
     border-color: var(--accent-color);
+    border-radius: 4px;
+    font-family: inherit;
+}
+/* Перелік перев */
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
 }
 
 
