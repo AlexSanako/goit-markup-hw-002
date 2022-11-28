@@ -12,7 +12,6 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-    font-style: 400;
     color: var(--primary-text-color);
     background-color: var(--primary-background-color);
 }
@@ -40,16 +39,20 @@ body{
 }
 .part{
     color: var(--accent-color);
-    font-family: 'Oleo Script', sans-serif;
+    font-family: 'Releway', sans-serif;
     font-style: normal;
 }
 .nav-list-item-current{
     color: var(--accent-color);
     text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 .nav-list-item{
     color: var(--tittle-text-color);
-    font-style: 500;
+    font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -57,7 +60,7 @@ body{
 }
 .header-contact{
     color: var(--primary-text-color);
-    font-style: 500;
+    font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -65,23 +68,31 @@ body{
 }
  /* Hover/Focus */
 
+
+.button-desc:hover,
+.button-desc:focus,
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: var(--accent-color);
+    color: var(--color-text-action);
+    border-color: var(--accent-color);
+}
 .nav-list-item:hover,
 .header-contact:hover,
 .footer-contact:hover,
 .footer-address:hover,
-.button-desc:hover,
 .nav-list-item:focus,
 .header-contact:focus,
 .footer-contact:focus,
-.footer-address:focus,
-.button-desc:focus {
+.footer-address:focus{
     color: var(--accent-color);
 }
-
 .hero{
     background-color: var(--secondary-background-color);
+}
+.hero-tittle {
     color: var(--color-text-action);
-    font-style: 900;
+    font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
@@ -94,7 +105,7 @@ body{
 .btn-primary{
     background-color: var(--accent-color);
     color: var(--color-text-action);
-    border-color: var(--accent-color);
+    border-color: transparent;
     border-radius: 4px;
     font-family: inherit;
     font-weight: 700;
@@ -107,12 +118,12 @@ body{
 .button-desc{
     background-color: var(--primary-color);
     color: var(--tittle-text-color);
-    border-color: var(--primary-color);
+    border-color: transparent;
     border-radius: 4px;
     font-family: inherit;
     font-size: 16px;
     font-weight: 500;
-    line-height: 1.62x;
+    line-height: 1.62;
     letter-spacing: 0.03em;
     text-align: center;
     cursor: pointer;
@@ -121,7 +132,7 @@ body{
 .button-desc-current{
     background-color: var(--accent-color);
     color: var(--color-text-action);
-    border-color: var(--accent-color);
+    border-color: transparent;
     border-radius: 4px;
     font-family: inherit;
     font-size: 16px;
@@ -162,7 +173,6 @@ body{
     line-height: 1.71;
     letter-spacing: 0.03em;
     text-align: left;
-    font-family: inherit;
 }
 .teams {
     background-color: var(--primary-color);
@@ -187,7 +197,6 @@ body{
     line-height: 1.18;
     letter-spacing: 0.03em;
     text-align: center;
-    font-family: inherit;
     text-transform: capitalize;
 }
 .team-desc {
@@ -196,7 +205,6 @@ body{
     letter-spacing: 0.03em;
     text-align: center;
     text-transform: capitalize;
-    font-family: inherit;
 }
 
 /* Portfolio */
@@ -213,7 +221,14 @@ body{
     text-align: left;
     font-style: normal;
     text-decoration: none;
-
+}
+.project-paragraph {
+    color: var(--primary-text-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    text-align: left;
 }
 
 /* Footer studio + Footer portfolio */
@@ -234,20 +249,18 @@ body{
     text-decoration: none;
 }
 .footer-contact{
-    color: var(--color-text-action) 0.6;
+    color: rgba(255, 255, 255, 0.6);
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     text-align: left;
-    font-family: inherit;
     font-style: normal;
 }
 .footer-address {
-    font-family: inherit;
-    font-style: normal;
     color: var(--color-text-action);
     font-size: 14px;
-    line-height: 1.71px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     text-align: left;
+    font-style: normal;
 }
