@@ -75,7 +75,7 @@ body{
 .btn-primary:focus {
     background-color: var(--accent-color);
     color: var(--color-text-action);
-    border-color: var(--accent-color);
+    border-color: transparent;
 }
 .nav-list-item:hover,
 .header-contact:hover,
